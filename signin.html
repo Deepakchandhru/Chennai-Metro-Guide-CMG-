@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> CMG - Create your account </title> 
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+<form action="signin.php">
+    <fieldset>
+        <a href="home.php"><i class="material-icons" id="exit"> cancel </i></a>
+        <header>
+            <ul>
+                <li><a href="index.html" id="page">LOGIN</a></li>
+                <li id="title">SIGN IN</li>
+            </ul>
+        </header>
+        <br><br>
+        <label><b> User name : </b></label>
+        <input type="text" id="uname" name="uname" placeholder="Create username" required> <br><br>
+        <label><b> Password : </b></label>
+        <input type="password" id="pass" name="pass" placeholder="Create password" required> <br><br>
+        <input class="button" type="submit" value="SIGN IN" onmouseover="style='background-color: green;'" onmouseout="style='background-color:rgb(117, 45, 183) ;'"><br><br>
+        <a href="index.html"> Already have an account? </a><br>
+        <a href="home.php"> Continue as Guest </a>
+    </fieldset>
+</form> 
+
+</body>
+</html>

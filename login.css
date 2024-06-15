@@ -1,0 +1,100 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/278/150/small/dark-background-abstract-with-light-effect-vector.jpg");
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;  /* Set body height to 100% viewport height */
+    display: flex;  /* Allow centering content vertically */
+    justify-content: center;
+    align-items: center;
+
+}
+
+fieldset{   
+     background-color:rgb(45, 43, 43); ;
+     padding: 2% ;
+     padding-top: 2%;
+     margin: 5% 25%;
+     border: 2% solid rgb(56, 55, 55);
+     
+}
+li{
+     text-align : center;
+     display: inline-block;
+}
+li:hover{
+     background-color: aqua;
+ }
+form{
+     width: 60%;
+     font-size: 40px;
+     font-weight: bold;
+     color: rgb(70, 120, 235);
+}
+ 
+ ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding :2% 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+ }
+ .button{
+     border: 5px solid black;
+     border-radius: 2px;
+     text-align: center;
+     padding: 2%;
+     margin-left: 30%;
+     font-size: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     color: white;
+     background-color:rgb(117, 45, 183) ;
+ }
+ .button:hover{
+    background-color: rgb(84, 6, 230);
+ }
+ label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+header{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 10px 0px;
+    border-bottom: solid rgb(220, 74, 198);
+    background-color: black;
+ }
+input{
+    background-color: rgb(6, 6, 40);
+    color: rgb(69, 132, 201);   
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+}
+#title{
+    text-decoration: underline  rgb(220, 74, 198) solid 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 174, 0);
+}
+header a{
+    font-size: 35px;
+}
+#page{
+    color: rgb(106, 46, 180);
+}
+#exit{
+    position: absolute;
+    background-color: black;
+    top: 110px;
+    right: 550px;
+    width: 1px;
+    height: 1px;
+}
